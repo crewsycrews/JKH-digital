@@ -1,0 +1,60 @@
+{
+    "user": {
+        "user_id": 8,
+        "votes": [
+            {
+                "scope_id": 6,
+                "caption": "Покрасить скамейку!!!",
+                "answers": [
+                    {
+                        "name": "yes",
+                        "is_vote": false
+                    },
+                    {
+                        "name": "no",
+                        "is_vote": true
+                    },
+                    {
+                        "name": "against",
+                        "is_vote": false
+                    }
+                ],
+                "state": {
+                    "yes": 1,
+                    "no": 1,
+                    "against": 0
+                },
+                "user_id": 8
+            }
+        ]
+    },
+    "active": {
+        "votes": [
+            {
+                "scope_id": 6,
+                "caption": "Покрасить скамейку!!!",
+                "answers": [
+                    {
+                        "name": "yes",
+                        "is_vote": true
+                    },
+                    {
+                        "name": "no",
+                        "is_vote": false
+                    },
+                    {
+                        "name": "against",
+                        "is_vote": false
+                    }
+                ],
+                "state": {
+                    "yes": 2,
+                    "no": 1,
+                    "against": 0
+                },
+                "user_id": 9
+            }
+        ],
+        "user_id": 9
+    }
+}

@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2403C3E324F07DB000E02B4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403C3E224F07DB000E02B4D /* AppDelegate.swift */; };
+		2403C3E524F07DB000E02B4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403C3E424F07DB000E02B4D /* SceneDelegate.swift */; };
+		2403C3E924F07DB100E02B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2403C3E824F07DB100E02B4D /* Assets.xcassets */; };
+		2403C3EC24F07DB100E02B4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2403C3EB24F07DB100E02B4D /* Preview Assets.xcassets */; };
+		2403C3EF24F07DB100E02B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2403C3ED24F07DB100E02B4D /* LaunchScreen.storyboard */; };
+		2475179824F11471003014BB /* VoteYesOrNoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475179724F11471003014BB /* VoteYesOrNoView.swift */; };
+		2475179A24F15FD6003014BB /* VoteTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475179924F15FD6003014BB /* VoteTopicView.swift */; };
+		2475179C24F172F6003014BB /* ActiveVotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475179B24F172F6003014BB /* ActiveVotesView.swift */; };
+		24A2A37824F080BD007C384B /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A2A37724F080BD007C384B /* SigninView.swift */; };
+		24EC502824F1B805004BDA98 /* PincodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC502724F1B805004BDA98 /* PincodeView.swift */; };
+		24EC502B24F20C69004BDA98 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC502A24F20C69004BDA98 /* NetworkManager.swift */; };
+		24EC503024F21829004BDA98 /* votes.json in Resources */ = {isa = PBXBuildFile; fileRef = 24EC502F24F21829004BDA98 /* votes.json */; };
+		24EC503324F21874004BDA98 /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC503224F21874004BDA98 /* FileHelper.swift */; };
+		24EC503524F21FC7004BDA98 /* VotesDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC503424F21FC7004BDA98 /* VotesDto.swift */; };
+		D299B716E1D564B0E4208DB7 /* Pods_Jekheha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0947E83A23C5A06EBA6C04DC /* Pods_Jekheha.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0947E83A23C5A06EBA6C04DC /* Pods_Jekheha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jekheha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2403C3DF24F07DB000E02B4D /* golos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = golos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2403C3E224F07DB000E02B4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2403C3E424F07DB000E02B4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2403C3E824F07DB100E02B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2403C3EB24F07DB100E02B4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2403C3EE24F07DB100E02B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2403C3F024F07DB100E02B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2475179724F11471003014BB /* VoteYesOrNoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteYesOrNoView.swift; sourceTree = "<group>"; };
+		2475179924F15FD6003014BB /* VoteTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteTopicView.swift; sourceTree = "<group>"; };
+		2475179B24F172F6003014BB /* ActiveVotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveVotesView.swift; sourceTree = "<group>"; };
+		24A2A37724F080BD007C384B /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		24EC502724F1B805004BDA98 /* PincodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeView.swift; sourceTree = "<group>"; };
+		24EC502A24F20C69004BDA98 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		24EC502F24F21829004BDA98 /* votes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = votes.json; sourceTree = "<group>"; };
+		24EC503224F21874004BDA98 /* FileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		24EC503424F21FC7004BDA98 /* VotesDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotesDto.swift; sourceTree = "<group>"; };
+		33D8602237C26B701E6E110D /* Pods-Jekheha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jekheha.debug.xcconfig"; path = "Target Support Files/Pods-Jekheha/Pods-Jekheha.debug.xcconfig"; sourceTree = "<group>"; };
+		3534DFA80E0669A8FBC62B89 /* Pods-Jekheha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jekheha.release.xcconfig"; path = "Target Support Files/Pods-Jekheha/Pods-Jekheha.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2403C3DC24F07DB000E02B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299B716E1D564B0E4208DB7 /* Pods_Jekheha.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A8CC01FD5EE177AD5812F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33D8602237C26B701E6E110D /* Pods-Jekheha.debug.xcconfig */,
+				3534DFA80E0669A8FBC62B89 /* Pods-Jekheha.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2403C3D624F07DB000E02B4D = {
+			isa = PBXGroup;
+			children = (
+				2403C3E124F07DB000E02B4D /* Jekheha */,
+				2403C3E024F07DB000E02B4D /* Products */,
+				08A8CC01FD5EE177AD5812F5 /* Pods */,
+				D6D924567FFF40385FA4CB44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2403C3E024F07DB000E02B4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2403C3DF24F07DB000E02B4D /* golos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2403C3E124F07DB000E02B4D /* Jekheha */ = {
+			isa = PBXGroup;
+			children = (
+				24EC502924F20C47004BDA98 /* Resources */,
+				24EC502C24F20CA5004BDA98 /* App */,
+				24EC502D24F20CCF004BDA98 /* Network */,
+				24EC502E24F20CDD004BDA98 /* View */,
+				24EC503124F21853004BDA98 /* Utils */,
+				2403C3E824F07DB100E02B4D /* Assets.xcassets */,
+				2403C3ED24F07DB100E02B4D /* LaunchScreen.storyboard */,
+				2403C3F024F07DB100E02B4D /* Info.plist */,
+				2403C3EA24F07DB100E02B4D /* Preview Content */,
+			);
+			path = Jekheha;
+			sourceTree = "<group>";
+		};
+		2403C3EA24F07DB100E02B4D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2403C3EB24F07DB100E02B4D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24EC502924F20C47004BDA98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		24EC502C24F20CA5004BDA98 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2403C3E224F07DB000E02B4D /* AppDelegate.swift */,
+				2403C3E424F07DB000E02B4D /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		24EC502D24F20CCF004BDA98 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				24EC502A24F20C69004BDA98 /* NetworkManager.swift */,
+				24EC503424F21FC7004BDA98 /* VotesDto.swift */,
+				24EC502F24F21829004BDA98 /* votes.json */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		24EC502E24F20CDD004BDA98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2475179724F11471003014BB /* VoteYesOrNoView.swift */,
+				2475179924F15FD6003014BB /* VoteTopicView.swift */,
+				2475179B24F172F6003014BB /* ActiveVotesView.swift */,
+				24A2A37724F080BD007C384B /* SigninView.swift */,
+				24EC502724F1B805004BDA98 /* PincodeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24EC503124F21853004BDA98 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				24EC503224F21874004BDA98 /* FileHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D6D924567FFF40385FA4CB44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0947E83A23C5A06EBA6C04DC /* Pods_Jekheha.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2403C3DE24F07DB000E02B4D /* Jekheha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2403C3F324F07DB100E02B4D /* Build configuration list for PBXNativeTarget "Jekheha" */;
+			buildPhases = (
+				7C1DF409B05093CD64914715 /* [CP] Check Pods Manifest.lock */,
+				2403C3DB24F07DB000E02B4D /* Sources */,
+				2403C3DC24F07DB000E02B4D /* Frameworks */,
+				2403C3DD24F07DB000E02B4D /* Resources */,
+				6C88C440C5FE0C8B0D4C393E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jekheha;
+			productName = Jekheha;
+			productReference = 2403C3DF24F07DB000E02B4D /* golos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2403C3D724F07DB000E02B4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Svyatoshenko \"Megal\" Misha";
+				TargetAttributes = {
+					2403C3DE24F07DB000E02B4D = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 2403C3DA24F07DB000E02B4D /* Build configuration list for PBXProject "Jekheha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2403C3D624F07DB000E02B4D;
+			productRefGroup = 2403C3E024F07DB000E02B4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2403C3DE24F07DB000E02B4D /* Jekheha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2403C3DD24F07DB000E02B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2403C3EF24F07DB100E02B4D /* LaunchScreen.storyboard in Resources */,
+				2403C3EC24F07DB100E02B4D /* Preview Assets.xcassets in Resources */,
+				2403C3E924F07DB100E02B4D /* Assets.xcassets in Resources */,
+				24EC503024F21829004BDA98 /* votes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C88C440C5FE0C8B0D4C393E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jekheha/Pods-Jekheha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jekheha/Pods-Jekheha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jekheha/Pods-Jekheha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C1DF409B05093CD64914715 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jekheha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2403C3DB24F07DB000E02B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2475179C24F172F6003014BB /* ActiveVotesView.swift in Sources */,
+				2475179A24F15FD6003014BB /* VoteTopicView.swift in Sources */,
+				2403C3E324F07DB000E02B4D /* AppDelegate.swift in Sources */,
+				2475179824F11471003014BB /* VoteYesOrNoView.swift in Sources */,
+				24EC502B24F20C69004BDA98 /* NetworkManager.swift in Sources */,
+				24EC503324F21874004BDA98 /* FileHelper.swift in Sources */,
+				24EC502824F1B805004BDA98 /* PincodeView.swift in Sources */,
+				24EC503524F21FC7004BDA98 /* VotesDto.swift in Sources */,
+				2403C3E524F07DB000E02B4D /* SceneDelegate.swift in Sources */,
+				24A2A37824F080BD007C384B /* SigninView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2403C3ED24F07DB100E02B4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2403C3EE24F07DB100E02B4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2403C3F124F07DB100E02B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2403C3F224F07DB100E02B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2403C3F424F07DB100E02B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D8602237C26B701E6E110D /* Pods-Jekheha.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jekheha/Preview Content\"";
+				DEVELOPMENT_TEAM = 9RF69ZA2Y4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Jekheha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.megal.Jekheha;
+				PRODUCT_NAME = golos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2403C3F524F07DB100E02B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3534DFA80E0669A8FBC62B89 /* Pods-Jekheha.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jekheha/Preview Content\"";
+				DEVELOPMENT_TEAM = 9RF69ZA2Y4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Jekheha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.megal.Jekheha;
+				PRODUCT_NAME = golos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2403C3DA24F07DB000E02B4D /* Build configuration list for PBXProject "Jekheha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2403C3F124F07DB100E02B4D /* Debug */,
+				2403C3F224F07DB100E02B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2403C3F324F07DB100E02B4D /* Build configuration list for PBXNativeTarget "Jekheha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2403C3F424F07DB100E02B4D /* Debug */,
+				2403C3F524F07DB100E02B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2403C3D724F07DB000E02B4D /* Project object */;
+}
