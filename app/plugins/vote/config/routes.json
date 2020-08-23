@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "vote.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/:id",
+      "handler": "vote.getVote",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/",
+      "handler": "vote.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vote",
+      "handler": "vote.vote",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

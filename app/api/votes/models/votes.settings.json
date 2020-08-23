@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "votes",
+  "info": {
+    "name": "votes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "blockchaindb_id": {
+      "type": "uid"
+    },
+    "start": {
+      "type": "datetime"
+    },
+    "end": {
+      "type": "datetime"
+    },
+    "category": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "richtext"
+    },
+    "scope_id": {
+      "via": "votes",
+      "model": "scopes"
+    }
+  }
+}

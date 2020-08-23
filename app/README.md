@@ -1,3 +1,3 @@
-# Strapi application
+# Vote
 
-A quick description of your strapi application
+Information system for absentee voting of owners in apartment buildings.

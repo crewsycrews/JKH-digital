@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scopes",
+  "info": {
+    "name": "scopes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "votes": {
+      "collection": "votes",
+      "via": "scope_id"
+    },
+    "title": {
+      "type": "string"
+    },
+    "blockchaindb_id": {
+      "type": "string"
+    }
+  }
+}
